@@ -1,0 +1,121 @@
+class Daire1 {
+
+  public static void main (String args[]) {
+
+            int  yarıçap;
+
+            double çevre;
+
+            double alan;
+
+            final double pi = 3.14;
+
+            yarıçap = 7;
+
+            alan = pi * yarıçap * yarıçap;
+
+            çevre = 2 * pi * yarıçap;
+
+            System.out.println ("Dairenin Alanı : " +alan);
+
+            System.out.println ("Dairenin Çevresi  : " + çevre);
+
+      }
+
+}    
+
+
+
+class Daire2 {
+
+             static int          yarıçap;
+
+             static double       çevre;
+
+             static double       alan;
+
+             final static double pi = 3.14;
+
+ 
+
+  public static void main (String args[]) {
+
+             yarıçap = 4;
+
+             alan = pi * yarıçap * yarıçap;
+
+             çevre = 2 * pi * yarıçap;
+
+ 
+
+             System.out.println ("Dairenin Alanı   : " + alan);
+
+             System.out.println ("Dairenin Çevresi : " + çevre);
+
+       }     
+
+}
+
+class Daire4a {
+
+            int yarıçap;
+
+            double çevre;
+
+            double alan;
+
+            final static double pi = 3.14;
+
+ 
+
+ 
+
+  public static void main (String args[]) {
+
+ 
+
+      // öntanımlı kurucu ilk nesneyi yaratıyor
+
+      Daire4a  d1 = new Daire4a();            
+
+d1.yarıçap = 7;
+
+            d1.alan    = pi * d1.yarıçap * d1.yarıçap ;
+
+            d1.çevre   = 2 * pi * d1.yarıçap ;
+
+ 
+
+System.out.println ("ilk Dairenin Yarıçapi: " + d1.yarıçap);
+
+System.out.println ("ilk Dairenin Alanı   : " + d1.alan);
+
+System.out.println ("ilk Dairenin Çevresi : " + d1.çevre);
+
+            System.out.println();
+
+ 
+
+// öntanımlı kurucu ikinci nesneyi yaratıyor
+
+      Daire4a d2 = new Daire4a();             
+
+d2.yarıçap = 9;
+
+            d2.alan    = pi * d2.yarıçap * d2.yarıçap ;
+
+            d2.çevre   = 2 * pi * d2.yarıçap ;
+
+           
+
+System.out.println ("ilk Dairenin Yarıçapi: " + d2.yarıçap);    
+
+System.out.println ("ilk Dairenin Alanı   : " + d2.alan);
+
+System.out.println ("ilk Dairenin Çevresi : " + d2.çevre);
+
+                      
+
+      }    
+
+}
